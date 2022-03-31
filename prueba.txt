@@ -1,0 +1,9 @@
+*** INICIO DEL ARCHIVO ***
+url='https://blog.artegrafico.net'
+r=requests.get(url,stream=True)
+#print(r.content[:10]) #visualiza el código de la página web
+#print(r.encoding)
+print(r.text)
+#print(r)
+#print(r.status_code) 
+*** FIN DEL ARCHIV ***
